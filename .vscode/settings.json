@@ -1,0 +1,25 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false,
+  },
+  "files.associations": {
+    "*.css": "postcss",
+  },
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "prettier.enable": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue",
+    "typescript",
+    "typescriptreact"
+  ],
+	"editor.insertSpaces": true,
+  "editor.detectIndentation": false
+}

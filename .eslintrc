@@ -1,0 +1,69 @@
+{
+  "extends": [
+    "@antfu"
+  ],
+  "rules": {
+    // "indent": "off",
+    "indent": [
+      "error",
+      2
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "brace-style": [
+      "error",
+      "1tbs"
+    ],
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ],
+    "vue/script-indent": [
+      "error",
+      2,
+      {
+        "baseIndent": 1,
+        "switchCase": 1,
+        "ignores": []
+      }
+    ],
+    "vue/attributes-order": [
+      "error",
+      {
+        "order": [
+          "CONDITIONALS",
+          "LIST_RENDERING",
+          "RENDER_MODIFIERS",
+          "OTHER_DIRECTIVES",
+          "TWO_WAY_BINDING",
+          "CONTENT",
+          "EVENTS",
+          "OTHER_ATTR",
+          "DEFINITION",
+          "GLOBAL",
+          "UNIQUE",
+          "SLOT"
+        ],
+        "alphabetical": false
+      }
+    ],
+    "no-restricted-syntax": 0
+    // "@typescript-eslint/indent": [
+    //   "error",
+    //   2
+    // ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.vue"
+      ],
+      "rules": {
+        "indent": "off",
+        "@typescript-eslint/indent": "off"
+      }
+    }
+  ]
+}
